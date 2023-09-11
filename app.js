@@ -21,8 +21,8 @@ app.get('/api', (req, res) =>
        "current_day": moment().format("dddd"),
        utc_time: moment.utc().format("YYYY-MM-DDTHH:mm:ss[Z]"),
         'track': track,
-        'github_file-url': '',
-        'github-repo_url': "",
+        'github_file-url': 'https://github.com/SirArlex/HNG/blob/main/app.js',
+        'github-repo_url': "https://github.com/SirArlex/HNG",
         'status_code' : 200
 
     }
